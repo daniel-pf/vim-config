@@ -2,7 +2,7 @@ set nocompatible
 
 execute pathogen#infect()
 
-colors darkburn
+" colors earendel
 
 syntax on
 filetype plugin on
