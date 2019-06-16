@@ -31,3 +31,6 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 inoremap jj <Esc>
+
+nnoremap ,bash :-1read $HOME/.vim/templates/skeleton.sh<CR>ja
+nnoremap ,vue :-1read $HOME/.vim/templates/skeleton.vue<CR>Gddggo<SPACE><SPACE>
