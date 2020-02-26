@@ -25,6 +25,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set list listchars=tab:→\ ,trail:·
+set colorcolumn=100
 
 set path+=**
 set wildmenu
